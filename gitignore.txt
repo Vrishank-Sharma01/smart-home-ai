@@ -1,0 +1,76 @@
+# =========================
+# 🔐 ENV & SECRETS
+# =========================
+.env
+*.env
+serviceAccountKey.json
+google-services.json
+firebase-adminsdk*.json
+*.pem
+*.key
+
+# =========================
+# 🐍 PYTHON (Backend)
+# =========================
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# =========================
+# 🤖 ANDROID (Luna App)
+# =========================
+.gradle/
+build/
+*/build/
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APK / AAB files
+*.apk
+*.aab
+
+# =========================
+# 💻 OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧪 TEST / TEMP FILES
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# 📦 NODE (if ever used)
+# =========================
+node_modules/
+
+# =========================
+# 🧾 JUPYTER (if used)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🔥 VS CODE / EDITORS
+# =========================
+.vscode/
+
+# =========================
+# 📊 DATA FILES (optional)
+# =========================
+*.csv
+*.xlsx

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- LUNA STATUS -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUNA Ready"
+        android:textColor="#03DAC5"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- USER COMMAND -->
+    <TextView
+        android:id="@+id/tvCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your command will appear here"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#1AFFFFFF"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- LUNA RESPONSE -->
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUNA response will appear here"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#3303DAC5"
+        android:layout_marginBottom="30dp"/>
+
+    <com.aegrome.luna2o.VoiceOrbView
+        android:id="@+id/voiceOrb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- SPEAK BUTTON -->
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAP TO SPEAK"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:backgroundTint="#03DAC5"
+        android:padding="12dp"/>
+
+</LinearLayout>

@@ -131,8 +131,8 @@ Unlike traditional smart home systems, this project:
 
 ## 👨‍💻 Author
 
-**Himanshu**
-B.Tech CSE (AIML)
+**Team**
+Sky Scraper
 
 ---
 
